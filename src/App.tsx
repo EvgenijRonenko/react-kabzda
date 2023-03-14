@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
+import {Accordion} from './components/Accordion/Accordion';
+import {Rating} from './components/Rating/Rating';
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+    return (
+        <div className="App">
+            <Rating value={3}/>
+            <Accordion />
+            <Rating valut={4}/>
+        </div>
+    );
 }
 
-const R
 
-export default App;
+export default App
