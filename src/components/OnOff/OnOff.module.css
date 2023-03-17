@@ -1,20 +1,39 @@
-
-
-.red {
-    background-color: red;
-
-}
-
-.green {
-   background-color: green
-}
-
-.reder {
-    background-color: red;
-    border-radius: 30%;
-}
-
-.greener {
+.on {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 10px;
     background-color: green;
-    border-radius: 30%;
+
 }
+
+.off {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: red;
+}
+
+.indicator1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: green;
+}
+
+.indicator2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: red;
+}
+
